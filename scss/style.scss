@@ -1,0 +1,36 @@
+@import './variables/variables';
+
+
+body{
+    background-color: $mainBackground;
+
+    .row{
+        .GradientHeader{
+            background: $primaryLinearGradient;
+            -webkit-background-clip: $backgroundClip;
+            -webkit-text-fill-color: $textFillColor;
+        }
+        .GradientName{
+            background: $secondaryLinearGradient;
+            -webkit-background-clip: $backgroundClip;
+            -webkit-text-fill-color: $textFillColor;
+        }
+        h2, p{
+            color: $primaryText;
+        }
+    }
+    .iconBox{
+        ul{
+            list-style-type: none;
+            margin-right: 50px;
+            li{
+                text-align: end;
+            }
+        }
+    }
+    .projects{
+        margin-top: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}

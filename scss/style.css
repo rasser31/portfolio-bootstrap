@@ -1,0 +1,28 @@
+body {
+  background-color: #242424;
+}
+body .row .GradientHeader {
+  background: -webkit-linear-gradient(45deg, #f97316 0%, #fff 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .row .GradientName {
+  background: -webkit-linear-gradient(45deg, #f97316 0%, #fff 110%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .row h2, body .row p {
+  color: #B5B5B5;
+}
+body .iconBox ul {
+  list-style-type: none;
+  margin-right: 50px;
+}
+body .iconBox ul li {
+  text-align: end;
+}
+body .projects {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}/*# sourceMappingURL=style.css.map */
